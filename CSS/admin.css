@@ -1,0 +1,79 @@
+body {
+    background-image: url("../img/main/background-img.jpg");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+#all{
+    background-color: white;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.2), 0 8px 30px 0 rgba(0, 0, 0, 0.19);
+    padding: 110px 5% 3% 5%;
+    overflow: hidden;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+h1{
+   font-size:130%;
+   color: #d70808;
+   font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.input{
+    width: 100px;
+}
+
+.button{
+    color: #d70808;
+    background-color: white;
+    font-size: 14px;
+    border-radius: 2px;
+    border: 1px solid #d70808;
+}
+
+main a:link {
+    text-decoration: none;
+    color: #d70808;
+    font-size: 14px;
+}
+
+.update{
+    margin-bottom: 10%;
+}
+
+.add{
+    margin-bottom: 3%;
+}
+
+.delte{
+    margin-bottom: 3%;
+}
+
+.sumary{
+    width: 535px;
+    height: 50px;
+}
+   
+#align{
+    float: right;
+    margin-right: 10%;
+}
+#refer{
+    position: fixed;
+    color: #d70808;
+    font-size: 130%;
+    width: 70px;
+}
+
+.red-msg {
+    color: #d70808;
+}
+
+#all > div {
+    padding: 30px 0px;
+}
+

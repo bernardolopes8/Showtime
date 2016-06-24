@@ -1,0 +1,133 @@
+body {
+    background-image: url("../img/main/background-img.jpg");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+#all{
+    background-color: white;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.2), 0 8px 30px 0 rgba(0, 0, 0, 0.19);
+    padding: 110px 5% 3% 5%;
+    overflow: hidden;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    min-height: 450px;
+}
+ 
+.person-img{
+    height: 195px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    max-width: 100%;
+}
+
+#left {
+    margin-left: -20px;
+    float: left;
+    position: fixed;
+    width: 130px;
+    font-size: 91%;
+}
+
+#right {
+    list-style-type: none;
+    width:auto;
+    height:auto;
+    margin-left: 120px;
+    padding: 0px 5% 5% 5%;
+    overflow: hidden;
+    text-align: justify;
+    font-size: 90%;
+}
+
+.knownlist{
+    color: black;
+    text-decoration: none;
+    display:inline-block;
+    margin:5px 15px;
+    padding:5px;
+    text-align: center;
+}
+
+.list-img {
+    height: 160px; 
+    width: 110px;
+    display:inline-block;
+    margin:5px 15px;
+    padding:5px;
+}
+
+h1 {
+   color: #d70808;
+   font-size: 180%;
+}
+
+#right h1 {
+   padding-top: 30px;
+}
+
+#left p {
+   color: black;
+   font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+#right p{
+   color: black;
+   font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+#see {
+    list-style: none;
+    text-decoration: none;
+}
+
+#see li:hover{
+    color: black;
+}
+
+.pr {
+       padding-top: 25px;
+}
+
+#table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#table td{
+    padding: 10px;
+    text-align: left;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+tr:nth-child(odd) {
+    background-color: #d70808;
+    color: white;
+}
+
+#trailer{
+    width: 640px;
+    height: 360px;
+}
+
+#right li{
+    float: right;
+    color: #d70808;
+    text-align: right;
+}
+
+.red{
+    color:#d70808;
+    font-size: 115%;
+}
+
+.movie-link {
+    color: inherit;
+    text-decoration: none;
+}

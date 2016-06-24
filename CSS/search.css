@@ -1,0 +1,47 @@
+body {
+    background-image: url("../img/main/background-img.jpg");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+#all{
+    background-color: white;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.2), 0 8px 30px 0 rgba(0, 0, 0, 0.19);
+    padding: 110px 5% 3% 5%;
+    overflow: hidden;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+h1 {
+   color: #d70808;
+   font-size: 140%;
+}
+
+.table_t {
+   color: #d70808;
+   font-size: 120%;
+   margin-top: 40px;
+}
+
+.matrix-img{
+    width: 60px;
+    height: 80px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+tr:nth-child(even) {
+    color: #d70808;
+}
+
+td:nth-child(even) {
+    padding-left: 20px;
+}

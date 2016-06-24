@@ -1,0 +1,79 @@
+body {
+    background-image: url("../img/main/background-img.jpg");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+#all{
+    background-color: white;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.2), 0 8px 30px 0 rgba(0, 0, 0, 0.19);
+    padding: 110px 5% 3% 5%;
+    overflow: hidden;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+#avatar{
+    float:left;
+}
+
+#profile-img{
+    float:left;
+    height: 195px;
+    width: 300px;
+    display:block;
+}
+
+#editr{
+    line-height: 165%;
+    float: right;
+    margin-right: 15%;
+    margin-bottom: 30px;
+}
+
+#editl{
+    line-height: 165%;
+    float: left;
+}
+
+.button{
+    color: #d70808;
+    background-color: white;
+    font-size: 14px;
+    border-radius: 2px;
+    border: 1px solid #d70808;
+}
+
+.upload-button{
+    color: #d70808;
+    background-color: white;
+    font-size: 12px;
+    border-radius: 2px;
+    border: 1px solid #d70808;
+}
+
+.button:hover {
+    background-color: #d70808;
+    color: white;
+    box-shadow: 2px 2px 2px #888888;
+}
+
+.upload-button:hover {
+    background-color: #d70808;
+    color: white;
+    box-shadow: 2px 2px 2px #888888;
+}
+
+#changeA{
+    float:left;
+    margin-bottom: 25%;
+}
+
+#changeA button{
+    margin-top: 20px;
+    float:left;
+}

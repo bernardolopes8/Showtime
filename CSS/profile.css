@@ -1,0 +1,106 @@
+body {
+    background-image: url("../img/main/background-img.jpg");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+#all{
+    background-color: white;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.2), 0 8px 30px 0 rgba(0, 0, 0, 0.19);
+    padding: 110px 5% 3% 5%;
+    overflow: hidden;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+#profile-img{
+    float:left;
+    height: 240px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#details{
+    line-height: 165%;
+    padding-top: 2%;
+    padding-left: 18%;
+    float:left;
+}
+
+#watchlist{
+    padding-top: 2%;
+    color: #d70808;
+    font-size: 130%;
+    float:right;
+}
+
+.button{
+    color: #d70808;
+    background-color: white;
+    font-size: 16px;
+    border-radius: 2px;
+    border: 2px solid #d70808;
+}
+
+.button:hover {
+    background-color: #d70808;
+    color: white;
+    box-shadow: 2px 2px 2px #888888;
+}
+
+.watched-img{
+    
+    height: 170px; 
+    width: 120px;
+    display:inline-block;
+    margin: 5px 0px 5px 0px;
+    padding: 0px 30px 0px 30px;
+}
+
+#img{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+h1 {
+   padding-top: 30%;
+   color: #d70808;
+   font-size: 180%;
+}
+
+.details{
+   color: black;
+}
+
+
+a{
+    color:#d70808;
+    list-style: none;
+    text-decoration: none;
+}
+
+#see{
+    float: right;
+    padding-right: 5%;
+}
+
+#see li:hover{
+    color: black;
+}
+
+.red{
+    color:#d70808;
+    font-size: 115%;
+}
+
+.item {
+    float: left;
+    text-align: center;
+}

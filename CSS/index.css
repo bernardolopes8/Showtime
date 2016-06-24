@@ -1,0 +1,163 @@
+body {
+    background-image: url("../img/main/background-img.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+#page{
+    background-color: white;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.2), 0 8px 30px 0 rgba(0, 0, 0, 0.19);
+    padding: 120px 5% 3% 5%;
+    overflow: hidden;
+}
+
+h1, h3 {
+   color: #d70808;
+   font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+p {
+    font-family: Calibri;
+}
+
+.list {
+    float: left;
+    width: 50%;
+    padding-top: 50px;
+    list-style: none;
+}
+
+#top-movies h3 {
+    padding-left: 55px;
+}
+
+#coming-soon h3 {
+    padding-left: 65px;
+}
+
+#top-movies-list{
+    width: 90%;
+}
+
+#coming-soon-list {
+    width: 90%;
+    margin-left: 10px;
+}
+
+ul {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    overflow: hidden;
+    font-size: 90%;
+}
+
+.list li {
+    display: block;
+    float: left;
+    color: black;
+    text-align: left;
+    padding: 0px 16px;
+    text-decoration: none;
+    padding-left: 0px;
+    max-width: 180px;
+    word-wrap: normal;
+}
+
+.list li img {
+    padding: 14px 16px;
+}
+
+.list-img {
+    height: 150px; 
+    width: 100px;
+}
+
+.clear {
+    clear: both;
+}
+
+#img {
+    float: left;
+    width: 70%;
+    height: auto;
+    height: 315px;
+    display: block;
+}
+
+#featured-details {
+    float: left;
+    max-width: 30%;
+    width: 100%;
+    display: block;
+    color: white;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+#featured-details h2 {
+    text-align: center;
+    padding-top: 40px;
+    margin-top: 0px;
+}
+
+#details-list {
+    text-align: left;
+    list-style-image: url("../img/main/bullet-point.png");
+}
+
+#details-list li {
+    padding-top: 30px;
+}
+
+#featured-tabs {
+    width: 100%;
+    list-style: none;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    background-color: black;
+    border-bottom: 2px solid #d70808;
+    padding-left: 0px;
+    display: table;
+    table-layout: auto;
+}
+
+#featured-tabs li {
+    color: white;
+    text-align: center;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    text-decoration: none;
+    float: left;
+    display: table-cell;
+    width: 25%;
+}
+
+#featured-tabs a li:hover {
+    background-color: #d70808;
+}
+
+#featured-tabs a li:active {
+    background-color: darkred;
+}
+
+#featured-box {
+        max-width: 1000px;
+        width: 90%;
+	text-align: left;
+	margin: 30px auto 30px auto;
+	background-color: black;
+	overflow: hidden;
+        box-shadow: #131313 0px 3px 10px;
+}
+
+#featured-title {
+    padding-left: 5%;
+    padding-bottom: 2.5%;
+}
+
+.active {
+    background-color: #d70808;
+}

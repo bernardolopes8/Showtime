@@ -1,0 +1,146 @@
+body {
+    background-image: url("../img/main/background-img.jpg");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+#all{
+    background-color: white;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.2), 0 8px 30px 0 rgba(0, 0, 0, 0.19);
+    padding: 110px 5% 3% 5%;
+    overflow: hidden;
+}
+ 
+.movie-img{
+    height: 195px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+#left {
+    margin-left: -20px;
+    float: left;
+    position: fixed;
+    width: 130px;
+    font-size: 91%;
+}
+
+#right {
+    width:auto;
+    height:auto;
+    margin-left: 120px;
+    padding: 25px 5% 5% 5%;
+    overflow: hidden;
+    text-align: justify;
+    font-size: 90%;
+}
+
+h1 {
+   color: #d70808;
+   font-family: Roboto, Helvetica, Arial, sans-serif;
+   font-size: 180%;
+}
+
+#right h1 {
+   padding-top: 30px;
+}
+
+#left p {
+   color: black;
+   font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+#right p{
+   color: black;
+   font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+#see {
+    list-style: none;
+    text-decoration: none;
+}
+
+#see li:hover{
+    color: black;
+}
+
+.pr {
+       padding-top: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#table td{
+    padding: 10px;
+    text-align: left;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+tr:nth-child(odd) {
+    background-color: #d70808;
+    color: white;
+}  
+
+#trailer{
+    width: 640px;
+    height: 360px;
+}
+
+#right li{
+    float: right;
+    color: #d70808;
+    text-align: right;
+}
+
+.red{
+    color:#d70808;
+    font-size: 115%;
+}
+
+.button{
+    width: 100%;
+    color: #d70808;
+    background-color: white;
+    font-size: 15px;
+    border-radius: 2px;
+    border: 2px solid #d70808;
+}
+
+.button:hover {
+    background-color: #d70808;
+    color: white;
+    box-shadow: 2px 2px 2px #888888;
+    cursor: pointer;
+}
+
+.button-rm{
+    width: 100%;
+    color: white;
+    background-color: #d70808;
+    font-size: 15px;
+    border-radius: 2px;
+    border: 2px solid #d70808;
+}
+
+.button-rm:hover {
+    background-color: white;
+    color: #d70808;
+    box-shadow: 2px 2px 2px #888888;
+    cursor: pointer;
+}
