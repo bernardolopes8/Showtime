@@ -5,7 +5,15 @@
 
 # Introduction
 
+![Featured Widget](http://i.imgur.com/IcVAaVN.png "Featured Widget")
+
 This website was built for a Web Development class at Instituto Politécnico de Bragança and is merely intended for academic purposes. Any security flaws it might have were not seen as relevant because of this.
+
+![Main Page](http://i.imgur.com/qV7bNXK.png "Main Page")
+
+![Movie Page pt1](http://i.imgur.com/KN7XI2M.jpg "Movie Page pt1")
+
+![Movie Page pt2](http://i.imgur.com/el45WQY.png "Movie Page pt2")
 
 # Configuration
 
