@@ -31,5 +31,5 @@ There's a problem with the featured widget implementation which causes the anima
 
 # Authors and License
 
-Created for a Computer Graphics class at Instituto Politécnico de Bragança by Bernardo Lopes and Tiago Padrão.
+Created for a Web Development class at Instituto Politécnico de Bragança by Bernardo Lopes and Tiago Moreira.
 Distributed under the MIT License.
