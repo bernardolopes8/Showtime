@@ -28,3 +28,8 @@ post_max_size=15M
 # Bugs
 
 There's a problem with the featured widget implementation which causes the animation to continue even if the user has selected a movie.
+
+# Authors and License
+
+Created for a Computer Graphics class at Instituto Politécnico de Bragança by Bernardo Lopes and Tiago Padrão.
+Distributed under the MIT License.
